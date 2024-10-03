@@ -1,0 +1,64 @@
+@font-face {
+  font-family: myfont;
+  src: url(assets/fonts/RobotoCondensed-VariableFont_wght.ttf);
+}
+* {
+  font-family: myfont;
+}
+
+body {
+  background-color: #ffcbcb;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #680747;
+  text-shadow: 2px 2px 8px rgb(228, 103, 245);
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 10px;
+  text-wrap: nowrap;
+}
+.logo a img {
+  height: 100px;
+  width: 100px;
+}
+
+.mynav ul {
+  margin: 0 0 0 20px;
+}
+.mynav ul li {
+  margin-left: 5px;
+  font-weight: 700;
+  font-size: 22px;
+  text-wrap: nowrap;
+}
+.mynav ul li a {
+  color: #680747 !important;
+}
+
+@media only screen and (min-width: 1400px) {
+  .mynav ul {
+  }
+  .mynav ul li {
+    margin-left: 5px;
+    font-weight: 700;
+    font-size: 35px;
+    text-wrap: nowrap;
+  }
+  .mynav ul li a {
+    color: #680747 !important;
+  }
+}
+.btndiv {
+  margin: 20px 0 0 0;
+}
+.btndiv div .mybtn1 {
+  background-color: #680747;
+  color: #ffcbcb;
+  margin-right: 5px;
+}
+.btndiv div .mybtn2 {
+  background-color: #680747;
+  color: #ffcbcb;
+}/*# sourceMappingURL=style.css.map */
