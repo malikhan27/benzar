@@ -36,14 +36,24 @@ body {
 .mynav ul li a {
   color: #680747 !important;
 }
+.mynav ul li .mybtn1 {
+  background-color: #680747;
+  color: #ffcbcb;
+}
+.mynav ul li .mybtn2 {
+  background-color: #680747;
+  color: #ffcbcb;
+  margin-top: 5px;
+}
 
 @media only screen and (min-width: 1400px) {
   .mynav ul {
+    margin: 0 0 0 20px;
   }
   .mynav ul li {
     margin-left: 5px;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
     text-wrap: nowrap;
   }
   .mynav ul li a {
@@ -56,9 +66,9 @@ body {
 .btndiv div .mybtn1 {
   background-color: #680747;
   color: #ffcbcb;
-  margin-right: 5px;
 }
 .btndiv div .mybtn2 {
   background-color: #680747;
   color: #ffcbcb;
+  margin-right: 5px;
 }/*# sourceMappingURL=style.css.map */

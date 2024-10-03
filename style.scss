@@ -39,7 +39,17 @@ body{
 
             a{
                 color: $color2 !important;
-            }      
+            } 
+            .mybtn1{
+                background-color: $color2;
+                color: $color1;
+                }
+            
+            .mybtn2{
+                background-color: $color2;
+                color: $color1;
+                margin-top: 5px;
+                }     
         }
     }
 }
@@ -69,12 +79,12 @@ body{
     .mybtn1{
     background-color: $color2;
     color: $color1;
-    margin-right: 5px;
     }
 
     .mybtn2{
         background-color: $color2;
         color: $color1;
+        margin-right: 5px;
        }
     }
 }
