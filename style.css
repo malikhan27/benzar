@@ -78,14 +78,29 @@ body {
   margin-right: 5px;
 }
 
-.sect2 {
-  padding-top: 20px;
-  background: rgb(255, 203, 203);
-  background: linear-gradient(222deg, rgb(255, 203, 203) 0%, rgb(255, 203, 203) 0%, rgb(104, 7, 71) 46%, rgb(255, 203, 203) 100%);
+@media only screen and (min-width: 1001px) {
+  .sect2 {
+    padding-top: 20px;
+    background: rgb(255, 203, 203);
+    background: linear-gradient(222deg, rgb(255, 203, 203) 0%, rgb(255, 203, 203) 0%, rgb(104, 7, 71) 46%, rgb(255, 203, 203) 100%);
+  }
+  .sect2 span {
+    font-size: 70px;
+    color: #f7a0a0;
+    text-shadow: 2px 2px 8px rgb(194, 2, 219);
+    word-spacing: 10px;
+  }
 }
-.sect2 span {
-  font-size: 70px;
-  color: #f7a0a0;
-  text-shadow: 2px 2px 8px rgb(194, 2, 219);
-  word-spacing: 10px;
+@media only screen and (max-width: 1000px) {
+  .sect2 {
+    padding-top: 20px;
+    background: rgb(255, 203, 203);
+    background: linear-gradient(222deg, rgb(255, 203, 203) 0%, rgb(255, 203, 203) 0%, rgb(104, 7, 71) 46%, rgb(255, 203, 203) 100%);
+  }
+  .sect2 span {
+    font-size: 30px;
+    color: #f7a0a0;
+    text-shadow: 2px 2px 8px rgb(194, 2, 219);
+    word-spacing: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
