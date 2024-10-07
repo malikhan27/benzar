@@ -11,17 +11,19 @@ $color2:#680747;
 }
 
 body{
-    background-color: $color1;
+    background: rgb(255,203,203);
+
 }
 
 .logo{
    a{ text-decoration: none;
     color: $color2;
     text-shadow: 2px 2px 8px rgb(228, 103, 245);
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bolder;
     margin-left: 10px;
     text-wrap: nowrap;
+    font-style: italic;
     img{
         height: 100px;
         width: 100px
@@ -40,6 +42,7 @@ body{
             a{
                 color: $color2 !important;
             } 
+            a:hover{color: palevioletred !important;}
             .mybtn1{
                 background-color: $color2;
                 color: $color1;
@@ -74,11 +77,12 @@ body{
 
 
 .btndiv{
-    margin: 20px 0 0 0;
+    margin: 25px 0 0 0px;
     div{
     .mybtn1{
     background-color: $color2;
     color: $color1;
+    margin-right: 3px;
     }
 
     .mybtn2{
@@ -87,5 +91,18 @@ body{
         margin-right: 5px;
        }
     }
+}
+
+.sect2{
+    padding-top: 20px;
+    background:rgb(255,203,203);
+    background: linear-gradient(222deg, rgba(255,203,203,1) 0%, rgba(255,203,203,1) 0%, rgba(104,7,71,1) 46%, rgba(255,203,203,1) 100%);;
+    span{
+        font-size: 70px ;
+        color:#f7a0a0;
+        text-shadow: 2px 2px 8px rgb(194, 2, 219);
+        word-spacing: 10px;
+    }
+
 }
 

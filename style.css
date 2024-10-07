@@ -7,17 +7,18 @@
 }
 
 body {
-  background-color: #ffcbcb;
+  background: rgb(255, 203, 203);
 }
 
 .logo a {
   text-decoration: none;
   color: #680747;
   text-shadow: 2px 2px 8px rgb(228, 103, 245);
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bolder;
   margin-left: 10px;
   text-wrap: nowrap;
+  font-style: italic;
 }
 .logo a img {
   height: 100px;
@@ -35,6 +36,9 @@ body {
 }
 .mynav ul li a {
   color: #680747 !important;
+}
+.mynav ul li a:hover {
+  color: palevioletred !important;
 }
 .mynav ul li .mybtn1 {
   background-color: #680747;
@@ -61,14 +65,27 @@ body {
   }
 }
 .btndiv {
-  margin: 20px 0 0 0;
+  margin: 25px 0 0 0px;
 }
 .btndiv div .mybtn1 {
   background-color: #680747;
   color: #ffcbcb;
+  margin-right: 3px;
 }
 .btndiv div .mybtn2 {
   background-color: #680747;
   color: #ffcbcb;
   margin-right: 5px;
+}
+
+.sect2 {
+  padding-top: 20px;
+  background: rgb(255, 203, 203);
+  background: linear-gradient(222deg, rgb(255, 203, 203) 0%, rgb(255, 203, 203) 0%, rgb(104, 7, 71) 46%, rgb(255, 203, 203) 100%);
+}
+.sect2 span {
+  font-size: 70px;
+  color: #f7a0a0;
+  text-shadow: 2px 2px 8px rgb(194, 2, 219);
+  word-spacing: 10px;
 }/*# sourceMappingURL=style.css.map */
