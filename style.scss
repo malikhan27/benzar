@@ -96,6 +96,7 @@ body{
 @media  only screen and  (min-width: 1001px){
 .sect2{
     padding-top: 20px;
+    padding-bottom: 10px;
     background:rgb(255,203,203);
     background: linear-gradient(222deg, rgba(255,203,203,1) 0%, rgba(255,203,203,1) 0%, rgba(104,7,71,1) 46%, rgba(255,203,203,1) 100%);;
     span{
@@ -111,6 +112,7 @@ body{
 @media  only screen and  (max-width: 1000px) {
     .sect2{
         padding-top: 20px;
+        padding-bottom: 10px;
         background:rgb(255,203,203);
         background: linear-gradient(222deg, rgba(255,203,203,1) 0%, rgba(255,203,203,1) 0%, rgba(104,7,71,1) 46%, rgba(255,203,203,1) 100%);;
         span{
