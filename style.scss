@@ -1,6 +1,11 @@
 @font-face {
     font-family: myfont;
-    src: url(assets/fonts/RobotoCondensed-VariableFont_wght.ttf);
+    src: url(assets/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: heading;
+    src: url(assets/fonts/Caveat/Caveat-VariableFont_wght.ttf);
 }
 $color1:#ffcbcb;
 $color2:#680747;
@@ -11,24 +16,27 @@ $color2:#680747;
 }
 
 body{
-    background: rgb(255,203,203);
+    background: rgb(247, 205, 205);
 
 }
 
 .logo{
-   a{ text-decoration: none;
-    color: $color2;
-    text-shadow: 2px 2px 8px rgb(228, 103, 245);
-    font-size: 30px;
-    font-weight: bolder;
-    margin-left: 10px;
-    text-wrap: nowrap;
-    font-style: italic;
-    img{
+   a{  text-decoration: none;
+      img{
         height: 100px;
         width: 100px
     }
 }
+span{
+    font-family: myfont;
+    text-transform: uppercase;
+    color: $color2;
+    text-shadow: 2px 2px 8px rgb(228, 103, 245);
+    font-size: 25px;
+    font-weight: bolder;
+    text-wrap: nowrap;
+    margin-top: 12px;
+   }
 }
 
 .mynav{
@@ -100,6 +108,7 @@ body{
     background:rgb(255,203,203);
     background: linear-gradient(222deg, rgba(255,203,203,1) 0%, rgba(255,203,203,1) 0%, rgba(104,7,71,1) 46%, rgba(255,203,203,1) 100%);;
     span{
+
         font-size: 70px ;
         color:#f7a0a0;
         text-shadow: 2px 2px 8px rgb(194, 2, 219);
@@ -114,17 +123,87 @@ body{
         padding-top: 20px;
         padding-bottom: 10px;
         background:rgb(255,203,203);
-        background: linear-gradient(222deg, rgba(255,203,203,1) 0%, rgba(255,203,203,1) 0%, rgba(104,7,71,1) 46%, rgba(255,203,203,1) 100%);;
+        background: linear-gradient(222deg, rgba(255,203,203,1) 0%, rgba(255,203,203,1) 0%, rgb(150, 5, 101) 46%, rgba(255,203,203,1) 100%);;
         span{
             font-size: 30px ;
             color:#f7a0a0;
             text-shadow: 2px 2px 8px rgb(194, 2, 219);
             word-spacing: 10px;
+    
         }
     
     }
 
 
 }
+
+.card-div{
+    border: 1px solid;
+    border-color: $color2;
+    border-radius: 8px;
+}
+
+.my-card{
+    color: $color2;
+    font-weight: 800;
+    background:rgb(255,203,203);
+    background: linear-gradient(222deg, rgb(255, 143, 236) 0%, rgba(255,203,203,1) 0%, rgb(255, 168, 226) 46%, rgb(226, 26, 199) 100%);;
+    font-size: 20px;
+    text-wrap: pre;
+    border-radius: 8px;
+
+}
+
+.footer{
+    font-family: body-font;
+    padding: 50px 0;
+    background-color: $color2;
+    color: $color1;
+    h2{
+        font-family: header-font;
+        font-size: 26px;
+    }
+
+    ul{
+        list-style-type: none;
+        list-style-position: inside;
+        h4{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        li{
+            margin-top: 6px;
+            font-size: 18px;
+             
+            span{
+                margin-right: 15px;
+                background-color: #FFFFFF;
+                color: #555555;
+                border: none;
+                border-radius: 8px;
+                padding: 6px 11px;
+                font-size: medium;
+                margin-bottom: 5px;
+        
+            }
+
+            .button{
+                margin-right: 15px;
+                background-color: #FFFFFF;
+                color: #555555;
+                border: none;
+                border-radius: 8px;
+                padding: 6px 8px;
+                font-size: medium;
+                margin-top: 5px;
+        
+            }
+
+       
+        }
+    }
+}
+
+
 
 

@@ -1,36 +1,22 @@
-Roboto Condensed Variable Font
-==============================
+Space Grotesk Variable Font
+===========================
 
-This download contains Roboto Condensed as both variable fonts and static fonts.
+This download contains Space Grotesk as both a variable font and static fonts.
 
-Roboto Condensed is a variable font with this axis:
+Space Grotesk is a variable font with this axis:
   wght
 
-This means all the styles are contained in these files:
-  RobotoCondensed-VariableFont_wght.ttf
-  RobotoCondensed-Italic-VariableFont_wght.ttf
+This means all the styles are contained in a single file:
+  Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Roboto Condensed:
-  static/RobotoCondensed-Thin.ttf
-  static/RobotoCondensed-ExtraLight.ttf
-  static/RobotoCondensed-Light.ttf
-  static/RobotoCondensed-Regular.ttf
-  static/RobotoCondensed-Medium.ttf
-  static/RobotoCondensed-SemiBold.ttf
-  static/RobotoCondensed-Bold.ttf
-  static/RobotoCondensed-ExtraBold.ttf
-  static/RobotoCondensed-Black.ttf
-  static/RobotoCondensed-ThinItalic.ttf
-  static/RobotoCondensed-ExtraLightItalic.ttf
-  static/RobotoCondensed-LightItalic.ttf
-  static/RobotoCondensed-Italic.ttf
-  static/RobotoCondensed-MediumItalic.ttf
-  static/RobotoCondensed-SemiBoldItalic.ttf
-  static/RobotoCondensed-BoldItalic.ttf
-  static/RobotoCondensed-ExtraBoldItalic.ttf
-  static/RobotoCondensed-BlackItalic.ttf
+in those cases you can use the static font files for Space Grotesk:
+  Space_Grotesk/static/SpaceGrotesk-Light.ttf
+  Space_Grotesk/static/SpaceGrotesk-Regular.ttf
+  Space_Grotesk/static/SpaceGrotesk-Medium.ttf
+  Space_Grotesk/static/SpaceGrotesk-SemiBold.ttf
+  Space_Grotesk/static/SpaceGrotesk-Bold.ttf
 
 Get started
 -----------
