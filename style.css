@@ -2,10 +2,6 @@
   font-family: myfont;
   src: url(assets/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf);
 }
-@font-face {
-  font-family: heading;
-  src: url(assets/fonts/Caveat/Caveat-VariableFont_wght.ttf);
-}
 * {
   font-family: myfont;
 }
@@ -32,13 +28,10 @@ body {
   margin-top: 12px;
 }
 
-.mynav ul {
-  margin: 0 0 0 20px;
-}
 .mynav ul li {
   margin-left: 5px;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 25px;
   text-wrap: nowrap;
 }
 .mynav ul li a {
@@ -54,25 +47,10 @@ body {
 .mynav ul li .mybtn2 {
   background-color: #680747;
   color: #f7cdcd;
-  margin-top: 5px;
 }
 
-@media only screen and (min-width: 1400px) {
-  .mynav ul {
-    margin: 0 0 0 20px;
-  }
-  .mynav ul li {
-    margin-left: 5px;
-    font-weight: 700;
-    font-size: 30px;
-    text-wrap: nowrap;
-  }
-  .mynav ul li a {
-    color: #680747 !important;
-  }
-}
 .btndiv {
-  margin: 25px 0 0 0px;
+  margin: 30px 0 0 0px;
 }
 .btndiv div .mybtn1 {
   background-color: #680747;
@@ -85,34 +63,6 @@ body {
   margin-right: 5px;
 }
 
-@media only screen and (min-width: 1001px) {
-  .sect2 {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    background: rgb(255, 203, 203);
-    background: linear-gradient(222deg, rgb(255, 203, 203) 0%, rgb(255, 203, 203) 0%, rgb(104, 7, 71) 46%, rgb(255, 203, 203) 100%);
-  }
-  .sect2 span {
-    font-size: 70px;
-    color: #f7a0a0;
-    text-shadow: 2px 2px 8px rgb(194, 2, 219);
-    word-spacing: 10px;
-  }
-}
-@media only screen and (max-width: 1000px) {
-  .sect2 {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    background: rgb(255, 203, 203);
-    background: linear-gradient(222deg, rgb(255, 203, 203) 0%, rgb(255, 203, 203) 0%, rgb(150, 5, 101) 46%, rgb(255, 203, 203) 100%);
-  }
-  .sect2 span {
-    font-size: 30px;
-    color: #f7a0a0;
-    text-shadow: 2px 2px 8px rgb(194, 2, 219);
-    word-spacing: 10px;
-  }
-}
 .card-div {
   border: 1px solid;
   border-color: #680747;
@@ -170,4 +120,87 @@ body {
   padding: 6px 8px;
   font-size: medium;
   margin-top: 5px;
+}
+
+@media only screen and (min-width: 1001px) {
+  .sect2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: rgb(255, 203, 203);
+    background: linear-gradient(222deg, rgb(255, 203, 203) 0%, rgb(255, 203, 203) 0%, rgb(104, 7, 71) 46%, rgb(255, 203, 203) 100%);
+  }
+  .sect2 span {
+    font-size: 70px;
+    color: #f7a0a0;
+    text-shadow: 2px 2px 8px rgb(194, 2, 219);
+    word-spacing: 10px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .sect2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: rgb(255, 203, 203);
+    background: linear-gradient(222deg, rgb(255, 203, 203) 0%, rgb(255, 203, 203) 0%, rgb(150, 5, 101) 46%, rgb(255, 203, 203) 100%);
+  }
+  .sect2 span {
+    font-size: 30px;
+    color: #f7a0a0;
+    text-shadow: 2px 2px 8px rgb(194, 2, 219);
+    word-spacing: 10px;
+  }
+}
+@media only screen and (min-width: 990px) and (max-width: 1350px) {
+  .mynav ul {
+    margin: 5px 0 0 0px;
+  }
+  .mynav ul li {
+    margin-left: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    text-wrap: nowrap;
+  }
+  .mynav ul li a {
+    color: #680747 !important;
+  }
+  .mynav ul li a:hover {
+    color: palevioletred !important;
+  }
+  .mynav ul li .mybtn1 {
+    background-color: #680747;
+    color: #f7cdcd;
+  }
+  .mynav ul li .mybtn2 {
+    background-color: #680747;
+    color: #f7cdcd;
+  }
+  .btndiv {
+    margin: 30px 0 0 0px;
+  }
+  .btndiv div .mybtn1 {
+    background-color: #680747;
+    color: #f7cdcd;
+    margin-right: 3px;
+    font-size: 15px;
+  }
+  .btndiv div .mybtn2 {
+    background-color: #680747;
+    color: #f7cdcd;
+    margin-right: 5px;
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 1153px) {
+  .third {
+    margin-top: 1.5rem !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .card-div {
+    width: 250px !important;
+    border: 1px solid;
+    border-color: #680747;
+    border-radius: 8px;
+    background-color: #f7cdcd;
+  }
 }/*# sourceMappingURL=style.css.map */

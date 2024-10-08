@@ -3,10 +3,6 @@
     src: url(assets/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf);
 }
 
-@font-face {
-    font-family: heading;
-    src: url(assets/fonts/Caveat/Caveat-VariableFont_wght.ttf);
-}
 $color1:#f7cdcd;
 $color2:#680747;
 
@@ -41,10 +37,9 @@ span{
 
 .mynav{
     ul{
-        margin: 0 0 0 20px;
         li{ margin-left:5px ; 
             font-weight: 700 ;
-            font-size: 22px ;
+            font-size: 25px ;
             text-wrap: nowrap;
 
             a{
@@ -59,33 +54,16 @@ span{
             .mybtn2{
                 background-color: $color2;
                 color: $color1;
-                margin-top: 5px;
                 }     
         }
     }
 }
 
-@media  only screen and (min-width:1400px) {
-.mynav
-{ ul{
-    margin: 0 0 0 20px;
-    li{ margin-left:5px ; 
-        font-weight: 700 ;
-        font-size: 30px ;
-        text-wrap: nowrap;
-
-        a{
-            color: $color2 !important;
-        }      
-    }
-}
-}
-}
     
 
 
 .btndiv{
-    margin: 25px 0 0 0px;
+    margin: 30px 0 0 0px;
     div{
     .mybtn1{
     background-color: $color2;
@@ -101,41 +79,7 @@ span{
     }
 }
 
-@media  only screen and  (min-width: 1001px){
-.sect2{
-    padding-top: 20px;
-    padding-bottom: 10px;
-    background:rgb(255,203,203);
-    background: linear-gradient(222deg, rgba(255,203,203,1) 0%, rgba(255,203,203,1) 0%, rgba(104,7,71,1) 46%, rgba(255,203,203,1) 100%);;
-    span{
 
-        font-size: 70px ;
-        color:#f7a0a0;
-        text-shadow: 2px 2px 8px rgb(194, 2, 219);
-        word-spacing: 10px;
-    }
-
-}
-}
-
-@media  only screen and  (max-width: 1000px) {
-    .sect2{
-        padding-top: 20px;
-        padding-bottom: 10px;
-        background:rgb(255,203,203);
-        background: linear-gradient(222deg, rgba(255,203,203,1) 0%, rgba(255,203,203,1) 0%, rgb(150, 5, 101) 46%, rgba(255,203,203,1) 100%);;
-        span{
-            font-size: 30px ;
-            color:#f7a0a0;
-            text-shadow: 2px 2px 8px rgb(194, 2, 219);
-            word-spacing: 10px;
-    
-        }
-    
-    }
-
-
-}
 
 .card-div{
     border: 1px solid;
@@ -143,6 +87,9 @@ span{
     border-radius: 8px;
     background-color: $color1 ;
 }
+
+
+
 
 .my-card{
     color: $color2;
@@ -205,6 +152,109 @@ span{
     }
 }
 
-
+@media  only screen and  (min-width: 1001px){
+    .sect2{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        background:rgb(255,203,203);
+        background: linear-gradient(222deg, rgba(255,203,203,1) 0%, rgba(255,203,203,1) 0%, rgba(104,7,71,1) 46%, rgba(255,203,203,1) 100%);;
+        span{
+    
+            font-size: 70px ;
+            color:#f7a0a0;
+            text-shadow: 2px 2px 8px rgb(194, 2, 219);
+            word-spacing: 10px;
+        }
+    
+    }
+    }
+    
+    @media  only screen and  (max-width: 1000px) {
+        .sect2{
+            padding-top: 20px;
+            padding-bottom: 10px;
+            background:rgb(255,203,203);
+            background: linear-gradient(222deg, rgba(255,203,203,1) 0%, rgba(255,203,203,1) 0%, rgb(150, 5, 101) 46%, rgba(255,203,203,1) 100%);;
+            span{
+                font-size: 30px ;
+                color:#f7a0a0;
+                text-shadow: 2px 2px 8px rgb(194, 2, 219);
+                word-spacing: 10px;
+        
+            }
+        
+        }
+    
+    
+    }
+    
+    @media  only screen and  (min-width:990px) and (max-width:1350px){
+        .mynav{
+            ul{
+                margin: 5px 0 0 0px;
+                li{ margin-left:5px ; 
+                    font-weight: 700 ;
+                    font-size: 18px ;
+                    text-wrap: nowrap;
+        
+                    a{
+                        color: $color2 !important;
+                    } 
+                    a:hover{color: palevioletred !important;}
+                    .mybtn1{
+                        background-color: $color2;
+                        color: $color1;
+                        }
+                    
+                    .mybtn2{
+                        background-color: $color2;
+                        color: $color1;;
+                        }     
+                }
+            }
+            
+        }
+        .btndiv{
+            margin: 30px 0 0 0px;
+            div{
+            .mybtn1{
+            background-color: $color2;
+            color: $color1;
+            margin-right: 3px;
+            font-size: 15px;
+            }
+        
+            .mybtn2{
+                background-color: $color2;
+                color: $color1;
+                margin-right: 5px;
+                font-size: 15px;
+               }
+            }
+        }
+    
+    
+    }
+    
+    @media  only screen and  (max-width:1153px)
+    {
+        .third{
+            margin-top: 1.5rem !important;
+        }
+    }
+    
+    
+    
+    
+    @media  only screen and  (max-width: 400px){
+        .card-div{
+            width: 250px !important;
+            border: 1px solid;
+            border-color: $color2;
+            border-radius: 8px;
+            background-color: $color1 ;
+        }
+    }
+    
 
 
