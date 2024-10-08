@@ -11,7 +11,7 @@
 }
 
 body {
-  background: rgb(247, 205, 205);
+  background: #f7cdcd;
 }
 
 .logo a {
@@ -49,11 +49,11 @@ body {
 }
 .mynav ul li .mybtn1 {
   background-color: #680747;
-  color: #ffcbcb;
+  color: #f7cdcd;
 }
 .mynav ul li .mybtn2 {
   background-color: #680747;
-  color: #ffcbcb;
+  color: #f7cdcd;
   margin-top: 5px;
 }
 
@@ -76,12 +76,12 @@ body {
 }
 .btndiv div .mybtn1 {
   background-color: #680747;
-  color: #ffcbcb;
+  color: #f7cdcd;
   margin-right: 3px;
 }
 .btndiv div .mybtn2 {
   background-color: #680747;
-  color: #ffcbcb;
+  color: #f7cdcd;
   margin-right: 5px;
 }
 
@@ -117,13 +117,14 @@ body {
   border: 1px solid;
   border-color: #680747;
   border-radius: 8px;
+  background-color: #f7cdcd;
 }
 
 .my-card {
   color: #680747;
   font-weight: 800;
   background: rgb(255, 203, 203);
-  background: linear-gradient(222deg, rgb(255, 143, 236) 0%, rgb(255, 203, 203) 0%, rgb(255, 168, 226) 46%, rgb(226, 26, 199) 100%);
+  background: linear-gradient(260deg, rgb(255, 114, 232) 0%, rgb(255, 203, 203) 0%, rgb(255, 168, 226) 46%, rgb(255, 116, 236) 100%);
   font-size: 20px;
   text-wrap: pre;
   border-radius: 8px;
@@ -132,7 +133,7 @@ body {
 .footer {
   padding: 50px 0;
   background-color: #680747;
-  color: #ffcbcb;
+  color: #f7cdcd;
 }
 .footer h2 {
   font-family: header-font;

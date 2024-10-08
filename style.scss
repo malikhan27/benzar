@@ -7,7 +7,7 @@
     font-family: heading;
     src: url(assets/fonts/Caveat/Caveat-VariableFont_wght.ttf);
 }
-$color1:#ffcbcb;
+$color1:#f7cdcd;
 $color2:#680747;
 
 
@@ -16,7 +16,7 @@ $color2:#680747;
 }
 
 body{
-    background: rgb(247, 205, 205);
+    background: $color1;
 
 }
 
@@ -141,13 +141,14 @@ span{
     border: 1px solid;
     border-color: $color2;
     border-radius: 8px;
+    background-color: $color1 ;
 }
 
 .my-card{
     color: $color2;
     font-weight: 800;
     background:rgb(255,203,203);
-    background: linear-gradient(222deg, rgb(255, 143, 236) 0%, rgba(255,203,203,1) 0%, rgb(255, 168, 226) 46%, rgb(226, 26, 199) 100%);;
+    background: linear-gradient(260deg, rgb(255, 114, 232) 0%, rgba(255,203,203,1) 0%, rgb(255, 168, 226) 46%, rgb(255, 116, 236) 100%);;
     font-size: 20px;
     text-wrap: pre;
     border-radius: 8px;
