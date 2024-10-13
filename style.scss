@@ -97,7 +97,7 @@ span{
     color: $color2;
     font-weight: 800;
     background:rgb(255,203,203);
-    background: linear-gradient(260deg, rgb(252, 245, 251) 0%, rgba(255,203,203,1) 0%, rgb(255, 168, 226) 46%, rgb(255, 116, 236) 100%);;
+    background: linear-gradient(260deg, rgb(252, 245, 251) 0%, rgba(255,203,203,1) 0%, rgb(255, 168, 226) 46%, rgb(255, 123, 195) 100%);;
     font-size: 20px;
     text-wrap: pre;
     border-radius: 8px;
@@ -238,16 +238,13 @@ span{
     
     }
     
-    @media  only screen and  (max-width:1153px)
+    @media  only screen and (min-width:1200px) and (min-width:1399px)
     {
-        .third{
+        .adjust{
             margin-top: 1.5rem !important;
         }
     }
-    
-    
-    
-    
+       
     @media  only screen and  (max-width: 400px){
         .card-div{
             width: 250px !important;
